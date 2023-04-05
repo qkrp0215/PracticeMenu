@@ -1,0 +1,36 @@
+[기능정의]
+
+1. DTO 만들기
+  ClothingSalesProject 
+ - Person
+ 	이름 name
+ 	아이디 id
+ 	연락처 phoneNumber
+ 	나이 age
+ 	
+  - Cloth
+  	제품번호 productNumber
+ 	옷이름 clothName
+ 	사이즈 size
+ 	수량 count 
+  	가격 price
+	* 카테고리 category(T : Enum) 
+		- Top : 반팔, 맨투맨, 후드티 
+		- Bottom : pants, 치마, 트레이닝
+		- Acc
+		
+2. 전체 프로젝트의 기능(메소드 정의: 타입, 이름, 파라미터)
+- 옷 검색 
+	clothSearch (옷이름)
+
+- 회원 정보 저장, 조회, 수정, 삭제
+	insertInfo( Person newPersonInfo)
+
+
+- 옷 정보 수정
+	clothinfoUpdate(옷이름, 사이즈, 수량)
+	
+	
+
+3. 프로젝트 진행
+
